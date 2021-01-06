@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xiaomi World</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<style type="text/css">
+		a:hover {
+  			background-color: transparent;
+	}
+
+	    .slider {
+           
+            color: white;
+            width: 1500px;
+            display: flex;
+            overflow-x: auto;
+    }
+        .slide {
+            width: 1500px;
+            flex-shrink: 0;
+            height: 100%;
+    }
+
+
+	</style>
+</head>
+<body>
+	
+	<div style="background-color: #333333; padding-top: 1%; height: 50px;" >
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-2">
+					<p style="color: white; padding-left: 30%;">Bạn đang xem tại: </p>
+				</div>
+				<div class="col-md-1">
+					<select name="city" id="city" style="background-color: #333333; color: white; width: 100%;">
+						<option value="Hà Nội">Hà Nội</option>
+						<option value="Hồ Chí Minh">Hồ Chí Minh</option>
+						<option value="Ninh Bình">Ninh Bình</option>
+						<option value="Thanh Hóa">Thanh Hóa</option>
+					</select>
+				</div>
+				<div class="col-md-2">
+					<a href="#" style="color: grey; font-size: 13px;"> TÌM TÔI TRÊN FACEBOOK </a>
+				</div>
+				<div class="col-md-7">
+					<p style="color: white; padding-left: 70%;"> <i class="fas fa-headset" style="color: white"></i> 0888079997 </p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+					<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-3" style="padding-top: 4%; text-align: center;">
+					<div class="input-group mb-3" style="width:100%; float: right; margin-bottom: 0px !important; background-color: white;">
+						<input type="text" class="form-control" placeholder="Tìm kiếm . . ." id="demo" name="tìm kiếm" style="width: 100%; background-color: black: color: white">
+						<div class="input-group-append">
+							<span class="input-group-text">
+								<i class="fa fa-search"> 
+								</i>
+							</span>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="col-md-6" style="text-align: center;">
+					<img src="https://xiaomiworld.vn/wp-content/uploads/2020/06/logowweb.png" width="35%" style="padding-top: 1%;">
+
+				</div>
+				<div class="col-md-3" style="padding-top: 4%; padding-left: 10%;">
+					<i class="fas fa-user-alt" style="color: black; font-size: 30px;"></i>
+					<i class="fas fa-shopping-cart" style="color: black; font-size: 30px; padding-left: 6%;"></i>
+				</div>
+
+			</div>
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-3" style="padding-top: 1%; border: solid 0px;background-color: #d94409; ">
+						<select name="option" id="option" style="color: black; width: 100%;">
+							<option value="DANH MỤC SẢN PHẨM" style="font-weight: bold;">DANH MỤC SẢN PHẨM</option>
+							<option value="Iphone" style="background-color: white; color: black">Iphone</option>
+							<option value="Sam Sung" style="background-color: white; color: black">SamSung</option>
+							<option value="Nokia" style="background-color: white; color: black">Nokia</option>
+							<option value="Xiaomi" style="background-color: white; color: black">Xiaomi</option>
+							<option value="Oppo" style="background-color: white;color: black">Oppo</option>
+							<option value="Huawei" style="background-color: white; color: black">Huawei</option>
+							<option value="Vivo" style="background-color: white; color: black">Vivo</option>
+							<option value="LG" style="background-color: white; color: black">LG</option>
+							<option value="SONY" style="background-color: white; color: black">SONY</option>
+						</select>
+
+					</div>
+					<div class="col-md-9" style="border: solid 1px; padding-left: 3%;">
+						<nav class="navbar navbar-expand-sm">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="file:///C:/s%E1%BB%AD/projectki1.html/projectki1.html# " style="color: black; font-weight: bold; font-size: 100%;">Trang Chủ</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="file:///C:/s%E1%BB%AD/tranggioithieuprojectki1.html/tranggioithieu.html" style="color: black;font-weight: bold; font-size: 100%;">Giới Thiệu</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="file:///C:/s%E1%BB%AD/tranglienheprojectki1.html/tranglienheprojectki1.html" style="color: black;font-weight: bold; font-size: 100%;">Liên Hệ </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="file:///C:/s%E1%BB%AD/trangtintucprojectki1.html/trangtintucproject.html" style="color: black;font-weight: bold; font-size: 100%;">Tin Tức</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="file:///C:/s%E1%BB%AD/tranghuongdanprojectki1.html/huongdan.html" style="color: black;font-weight: bold; font-size: 100%;">Hướng Dẫn</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="file:///C:/s%E1%BB%AD/trangchinhsachbaohanhprk1.html/chinhsachbaohanh.html" style="color: black;font-weight: bold; font-size: 100%;">Chính sách bảo hành</a>
+								</li>
+							</ul>
+						</nav>
+
+					</div>
+
+				</div>
+				</div>
+			</div>
+
+			
+<div class="row" style="background-color: #dedcdc;">
+	<div class="col-md-4"><br>
+		<img src="https://cdn.tgdd.vn/Products/Images/42/219898/nokia-83-600x600-2-600x600.jpg" style="width: 90%; padding-top: 4%;">
+	</div>
+
+	<div class="col-md-3">
+		<h4 style=" padding-top: 4%;">Điện thoại Nokia 8.3 5G</h4>
+		<p style="color: #45ba7c;">(Chính hãng)</p>
+		<p style="color: red;">12.990.000₫ <b style="color: black;text-decoration: line-through;">13.990.000₫</b></p>
+		<p>Chọn màu sắc:</p>
+		<img src="https://xiaomiworld.vn/wp-content/uploads/2019/12/tim.png" style="width: 6%;">
+		<img src="https://xiaomiworld.vn/wp-content/uploads/2017/12/xam.png" style="width: 6%;">
+		<img src="https://xiaomiworld.vn/wp-content/uploads/2017/12/xanh-miku.png" style="width: 6%;"><br><br>
+		<div style="padding-top: 2%; text-align: center;">
+			<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+			</div>
+	</div>
+
+    <div class="col-md-4">
+    	<h4 style="padding-top: 3%;">Thông Số Kỹ Thuật</h4><hr>
+    	<p><b>Màn hình:</b> LCD, 6.81", Full HD+</p><hr>
+    	<p><b>Hệ điều hành:</b> Android 10</p><hr>
+        <p><b>Camera sau:</b> Chính 64 MP & Phụ 12 MP, 2 MP, 2 MP</p><hr>
+        <p><b>Camera trước:</b> 24 MP</p><hr>
+        <p><b>CPU:</b> Snapdragon 765G 8 nhân</p><hr>
+        <p><b>RAM:</b> 8 GB</p><hr>
+        <p><b>Bộ nhớ trong:</b> 128 GB</p><hr>
+        <p><b>Thẻ SIM:</b> 2 Nano SIM (SIM 2 chung khe thẻ nhớ), Hỗ trợ 5G</p>
+    </div>
+</div><hr>
+
+    <div class="row" style="background-color: #dedcdc;">
+    	<div class="col-md-4">
+	    <img src="https://cdn.tgdd.vn/Products/Images/42/227626/nokia-34-xam-600x600-600x600.jpg" style="width: 100%; padding-top: 10%;">
+    </div>
+ 
+    <div class="col-md-3">
+    	<h4 style="padding-top: 5%;">Điện thoại Nokia 3.4</h4>
+    	<p style="color: #45ba7c;">(Chính hãng)</p>
+    	<p style="color: red;">3.390.000₫ <b style="color: black; text-decoration: line-through;">3.690.000₫</b></p>
+    	<p>Chọn màu sắc</p>
+    	<img src="https://xiaomiworld.vn/wp-content/uploads/2019/12/tim.png" style="width: 6%;">
+		<img src="https://xiaomiworld.vn/wp-content/uploads/2017/12/xanh-miku.png" style="width: 6%;">
+		<img src="https://xiaomiworld.vn/wp-content/uploads/2017/12/xam.png" style="width: 6%;"><br><br>
+		<div style="padding-top: 2%; text-align: center;">
+			<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+			</div>
+    </div>
+
+    <div class="col-md-4">
+    	<h4 style="padding-top: 4%;">Thông Số Kỹ Thuật</h4><hr>
+    	<p><b>Màn hình:</b> IPS LCD, 6.39", HD+</p><hr>
+    	<p><b>Hệ điều hành:</b> Android 10 (Android One)</p><hr>
+    	<p><b>Camera sau:</b> Chính 13 MP & Phụ 5 MP, 2 MP</p><hr>
+    	<p><b>Camera trước:</b> 8 MP</p><hr>
+    	<p><b>CPU:</b> Snapdragon 460 8 nhân</p><hr>
+    	<p><b>RAM:</b> 4 GB</p><hr>
+    	<p><b>Bộ nhớ trong:</b> 64 GB</p><hr>
+    	<p><b>Thẻ SIM</b> 2 Nano SIM, Hỗ trợ 4G</p>
+    </div>
+</div><hr>
+
+    <div class="row" style="background-color: #dedcdc;">
+    	<div class="col-md-4">
+    		<img src="https://cdn.tgdd.vn/Products/Images/42/219477/nokia-53-xam-600x600-600x600.jpg" style="width: 90%; padding-top: 12%;">
+    	</div>
+
+        <div class="col-md-3">
+        	<h4 style="padding-top: 7%;">Điện thoại Nokia 5.3</h4>
+        	<p style="color: #45ba7c;">(Chính hãng)</p>
+        	<p style="color: red;">2.890.000₫<b style="color: black; text-decoration: line-through;"> 3.890.000₫</b></p>
+        	<p>Chọn màu sắc</p>
+        	<img src="https://xiaomiworld.vn/wp-content/uploads/2017/12/xam.png" style="width: 6%;">
+        	<img src="https://xiaomiworld.vn/wp-content/uploads/2019/12/tim.png" style="width: 6%;">
+        	<img src="https://xiaomiworld.vn/wp-content/uploads/2017/12/xanh-miku.png" style="width: 6%;"><br><br>
+        	<div style="padding-top: 2%; text-align: center;">
+			<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+			</div>
+        </div>
+
+        <div class="col-md-4">
+        	<h4 style="padding-top: 5%;">Thông Số Kỹ Thuật</h4><hr>
+        	<p><b>Màn hình:</b> IPS LCD, 6.55", HD+</p><hr>
+        	<p><b>Hệ điều hành:</b> Android 10</p><hr>
+        	<p><b>Camera sau:</b> Chính 13 MP & Phụ 5 MP, 2 MP, 2 MP</p><hr>
+        	<p><b>Camera trước:</b> 8 MP</p><hr>
+        	<p><b>CPU:</b> Snapdragon 665 8 nhân</p><hr>
+        	<p><b>Bộ nhớ trong:</b> 64 GB</p><hr>
+        	<p><b>Thẻ SIM:</b> 2 Nano SIM, Hỗ trợ 4G</p><hr>
+        	<p><b>Dung lượng pin:</b> 4000 mAh</p>
+        	<p><b></b></p><hr>
+        </div>
+    </div><hr>
+    <div style="background-color: #d94409;">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-8">
+									<span style="font-weight: bold; color: white; font-size: 20px;"> Nokia Hot 2020 </span>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+					<div style="padding-top: 3%; background-color: white;">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-3">
+									<div class="card">
+										<img class="card-img-top" src="https://cdn.tgdd.vn/Products/Images/42/219898/nokia-83-600x600-2-600x600.jpg" alt="Card image">
+										<div class="card-body">
+											<a href="#">Nokia 8.3 5G </a>
+											<p  style="text-align: center;"><span>10.990.000₫đ</span></p>
+											<div style="padding-top: 2%; text-align: center;">
+											<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+										</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="card">
+										<img class="card-img-top" src="https://cdn.tgdd.vn/Products/Images/42/227626/nokia-34-xam-600x600-400x400.jpg" alt="Card image">
+										<div class="card-body">
+											<a href="#">Nokia 3.4</a>
+											<p  style="text-align: center;"><span>3.990.000₫đ</span></p>
+											<div style="padding-top: 2%; text-align: center;">
+											<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+										</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="card">
+										<img class="card-img-top" src="https://cdn.tgdd.vn/Products/Images/42/226218/nokia-24-xam-600x600.jpg" alt="Card image">
+										<div class="card-body">
+											<a href="#">Nokia 5.3</a>
+											<p style="text-align: center;"><span>2.490.000₫đ</span></p>
+											<div style="padding-top: 2%; text-align: center;">
+											<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+										</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="card">
+										<img class="card-img-top" src="https://cdn.tgdd.vn/Products/Images/42/219799/nokia-c2-xanh-600x600-1-600x600.jpg">
+										<div class="card-body">
+											<a href="#">Nokia 2.4</a>
+											<p  style="text-align: center;"><span>3.490.000₫  đ</span></p>
+											<div style="padding-top: 2%; text-align: center;">
+											<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="padding-top: 3%">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-3">
+										<div class="card">
+											<img class="card-img-top" src="https://cdn.tgdd.vn/Products/Images/42/219477/nokia-53-xam-600x600-600x600.jpg" alt="Card image">
+											<div class="card-body">
+												<a href="#"> Nokia 8000 5G</a>
+												<p  style="text-align: center;"><span>8.990.000₫đ</span></p>
+												<div style="padding-top: 2%; text-align: center;">
+											<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+										</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3">
+										<div class="card">
+											<img class="card-img-top" src="https://cdn.tgdd.vn/Products/Images/42/230812/nokia-8000-den-new-600x600-600x600.jpg" alt="Card image">
+											<div class="card-body">
+												<a href="#">Nokia C2 </a>
+												<p  style="text-align: center;"><span>14.990.000₫</span></p>
+												<div style="padding-top: 2%; text-align: center;">
+											<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+										</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3">
+										<div class="card">
+											<img class="card-img-top" src="https://cdn.tgdd.vn/Products/Images/42/101850/nokia-230-xam-dam-600x600-600x600.jpg" alt="Card image">
+											<div class="card-body">
+												<a href="#">Nokia 2300 </a>
+												<p style="text-align: center;"><span>19.990.000₫</span></p>
+												<div style="padding-top: 2%; text-align: center;">
+											<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+										</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3">
+										<div class="card">
+											<img class="card-img-top" src="https://cdn.tgdd.vn/Products/Images/42/230813/nokia-6300-new-600x600-600x600.jpg">
+											<div class="card-body">
+												<a href="#">Nokia 6300 4G </a>
+												<p  style="text-align: center;"><span>6.190.000₫</span></p>
+												<div style="padding-top: 2%; text-align: center;">
+											<button style="background-color:#07e2ed; color: black;" type="button"onclick="alert(Đặt hàng thành công)"> Thêm Vào Rỏ Hàng</button>
+										</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+<div class="mm" style="background-color: #fafafa;">
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-5"><hr>
+			<p><b>Showroom 1:</b> Số 63A Phố Vọng, Đồng Tâm, Hai Bà Trưng, Hà Nội <b style="color: #f04e23;">| Xem bản đồ</b><br>
+			<b>Hotline:</b> 08880.79997</p>
+
+            <p><b>Showroom 2:</b>  36 Nguyễn Văn Huyên (Đầu đường Cầu Giấy), Quan Hoa, Cầu Giấy<br> Hà Nội <b style="color: #f04e23;">| Xem bản đồ</b><br>
+            <b>Hotline:</b> 0886.36.11.36</p>
+
+            <p><b>Showroom 3:</b> 15 Trần Hưng Đạo, Lầu 1, P. Nguyễn Thái Bình, Quận 1, TP HCM  <b style="color: #f04e23;"><br>| Xem bản đồ</b> (Thời gian việc: 9h-19h)<br>
+			<b>Hotline:</b> 0943.571.999</p>
+
+            <p><b>Showroom 4:</b> 1035 Trần Hưng Đạo, Phố 12, P. Vân Giang, TP Ninh Bình <b style="color: #f04e23;">
+            	<br>| Xem bản đồ</b><br>
+			<b>Hotline:</b> 0836.319.319</p>
+     
+            <p><b>Showroom 5:</b>  394 Trần Phú, Ba Đình, TP Thanh Hoá <b style="color: #f04e23;">| Xem bản đồ</b><br>
+			<b>Hotline:</b> 0944.394.394</p>
+			<img src="https://xiaomiworld.vn/wp-content/uploads/2019/05/da-thong-bao.png" style="width: 30%;">
+		</div>
+
+		<div class="col-md-2"><hr>
+			<b>Hỗ Trợ Khách Hàng</b><hr>
+			<a style="color: black;" href="#">Chính Sách Bảo Hành</a><hr>
+			<a style="color: black;" href="#">Chính Sách Bảo Mật Thông Tin</a><hr>
+			<a style="color: black;" href="#">Giao Hàng & Thanh Toán</a><hr>
+			<a style="color: black;" href="#">Hướng Dẫn Mua Online</a><hr>
+			<a style="color: black;" href="#">Hướng Dẫn Mua Trả Góp</a>
+		</div>
+
+        <div class="col-md-4"><hr>
+        	<h5>MẠNG XÃ HỘI</h5><br>
+        	<img style="border: 1px solid; width: 13%;" src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.0-1/cp0/p80x80/65183693_1286907771477424_6995672779316002816_n.jpg?_nc_cat=109&ccb=2&_nc_sid=dbb9e7&_nc_ohc=HWURbTb3q3wAX9EbwWt&_nc_ht=scontent.fhan2-5.fna&tp=27&oh=6899d91d3f3ef599d65850ee6dcb829b&oe=6004D251">
+        	<a style="font-size: 140%;" href="https://www.facebook.com/xiaomiworldhanoi/">Xiaomiworld.vn - Smart Life ...</a><br><br>
+        	<div class="row">
+        		<div class="col-md-6">
+        			<i style="border: 1px solid; height: 25px; padding-top: 1%; width: 100px;" class="fab fa-facebook">Thích Trang</i>
+        		</div>
+        		<div class="col-md-6">
+        			<i style="border: 1px solid; height: 25px; padding-top: 1%; width: 120px;" class="far fa-comment">Gửi Tin Nhắn</i>
+        		</div>
+        	</div><br>
+        	<div class="row">
+        			<img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/78651516_2683477295205571_3801729171491993147_o.jpg?_nc_cat=111&cb=846ca55b-311e05c7&ccb=2&_nc_sid=e3f864&_nc_ohc=Qx-IDetdzi8AX8dXvJB&_nc_ht=scontent.fhan2-2.fna&oh=6aa4e851b9a1295d1c407839fddb5fd1&oe=60109970"style="width: 375px; margin-left: 15px; height: 150px;">
+        		</div>
+        	<div class="row" style="padding-top: 3%;">
+        	<div class="col-md-6">
+        			<i style="border: 1px solid; height: 25px; padding-top: 1%; width: 100px;" class="fab fa-facebook">Thích Trang</i>
+        		</div>
+        		<div class="col-md-6">
+        			<i style="border: 1px solid; height: 25px; padding-top: 1%; width: 120px;" class="far fa-comment">Gửi Tin Nhắn</i>
+        		</div>
+
+        	</div>
+            
+</div>
+</div>
+	   
+<div class="row" style="background-color: #5E5E5E; padding-top: 1%;">
+	<div class="col-md-1"></div>
+	<div class="col-md-11">
+   <b><p style="color: rgba(0,0,0,0.5);">© 2020 - XIAOMIWORLD</p></b>
+</div>
+</div>
+
+</body>
+</html>
